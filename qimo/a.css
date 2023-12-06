@@ -1,14 +1,40 @@
 p {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: italic;
+  color: black;
 }
 
 h1 {
-  font-family:monospace;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: lighter;
   
 }
-div {
+.mountain {
   font-family:sans-serif;
-  font-weight:bolder;
+  font-weight:lighter;
+  font-size: small;
   
+  
+}
+.starry {
+  font-family:sans-serif;
+  font-weight:lighter;
+  font-size: small;
+  
+}
+.car {
+  font-family:sans-serif;
+  font-weight:lighter;
+  font-size: small;
+}
+img {
+  width: 350px;
+  height: 200px;
+}
+a:hover {
+  color: green;
+  text-decoration: none;
+}
+a:link {
+    text-decoration: none;
 }
