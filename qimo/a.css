@@ -20,21 +20,69 @@ h1 {
   font-family:sans-serif;
   font-weight:lighter;
   font-size: small;
-  
+  position: relative;
+  left:450px;
+  bottom:360px;
+  margin-top:5px;
+  line-height:1em;
 }
 .car {
   font-family:sans-serif;
   font-weight:lighter;
   font-size: small;
+  position: relative;
+  left: 900px; ;
+  bottom: 715px;
 }
-img {
-  width: 350px;
-  height: 200px;
+.snow {
+  font-family:sans-serif;
+  font-weight:lighter;
+  font-size: small;
+  position: relative;
+  left: 10px;
+  bottom: 720px;
 }
+
+
+
+a:link {
+  color: black;
+    text-decoration: none;
+}
+
 a:hover {
-  color: green;
+  color:darkolivegreen;
   text-decoration: none;
 }
-a:link {
-    text-decoration: none;
+
+.imgOperatingmove {
+  position: relative;
+  left: 450px;
+  bottom:360px;
+}
+
+.textOperatingmove {
+  position: relative;
+  left:450px;
+  bottom:360px;
+}
+.imgParkmove {
+  position: relative;
+  left: 900px;
+  bottom:712px;
+}
+.textParkmove {
+  position: relative;
+  left: 900px;
+  bottom: 713px;
+}
+.imgWintermove {
+  position: relative;
+  left: 9px;
+  bottom: 700px;
+}
+.textWintermove {
+  position:relative;
+  left: 10px;
+  bottom: 710px;
 }
