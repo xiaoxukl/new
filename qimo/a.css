@@ -34,20 +34,34 @@ h1 {
   left: 900px; ;
   bottom: 715px;
 }
-.snow {
+.sw{
   font-family:sans-serif;
   font-weight:lighter;
   font-size: small;
   position: relative;
   left: 10px;
-  bottom: 720px;
+  bottom: 710px;
+}
+.forest{
+  font-family:sans-serif;
+  font-weight:lighter;
+  font-size: small;
+  position: relative;
+  left: 680px;
+  bottom: 1178px;
+}
+.park {
+  font-family:sans-serif;
+  font-weight:lighter;
+  font-size: small;
+  position: relative;
 }
 
 
 
 a:link {
   color: black;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
@@ -85,4 +99,23 @@ a:hover {
   position:relative;
   left: 10px;
   bottom: 710px;
+}
+.imgplaymove {
+  position: relative;
+  left: 680px;
+  bottom: 1167px;
+}
+.textplaymove {
+  position: relative;
+  left: 680px;
+  bottom: 1175px;
+
+}
+.imgSunmove {
+  position: relative;
+  left: 10px;
+  bottom: 1150px;
+}
+.textSunmove {
+  position: relative;
 }
