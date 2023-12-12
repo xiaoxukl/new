@@ -4,6 +4,7 @@ p {
   color: black;
 }
 
+
 h1 {
   font-family:'Times New Roman', Times, serif;
   font-weight: lighter;
@@ -55,7 +56,26 @@ h1 {
   font-weight:lighter;
   font-size: small;
   position: relative;
+  left: 10px;
+  bottom: 1165px;
 }
+.bear {
+  font-family:sans-serif;
+  font-weight:lighter;
+  font-size: small;
+  position: relative; 
+  left: 680px;
+  bottom: 1635px;
+}
+.app {
+  font-family:sans-serif;
+  font-weight:lighter;
+  font-size: small;
+  position: relative; 
+  left: 10px;
+  bottom: 1635px;  
+}
+
 
 
 
@@ -118,4 +138,26 @@ a:hover {
 }
 .textSunmove {
   position: relative;
+  left: 10px;
+  bottom: 1160px;
+}
+.imgBearmove {
+  position: relative;
+  left: 680px;
+  bottom: 1615px;
+}
+.textBearmove {
+  position: relative;
+  left: 678px;
+  bottom: 1625px;
+}
+.imgAppmove {
+  position: relative;
+  left: 10px;
+  bottom: 1618px;
+}
+.textAppmove {
+  position: relative;
+  left: 10px;
+  bottom: 1630px;
 }
