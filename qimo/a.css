@@ -1,82 +1,103 @@
 p {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-style: italic;
+  font-style:normal;
   color: black;
+  
+  position: relative;
+  left: 15px;
+  bottom: 0;
 }
-
 
 h1 {
   font-family:'Times New Roman', Times, serif;
   font-weight: lighter;
-  
+  position: relative;
+  left: 15px;
+  bottom: 0;
 }
+
 .mountain {
   font-family:sans-serif;
   font-weight:lighter;
-  font-size: small;
-  
-  
-}
+  font-size: 14px;
+  position: relative;
+  left: 12px;
+  bottom: 0px;
+  }
+
 .starry {
   font-family:sans-serif;
   font-weight:lighter;
-  font-size: small;
+  font-size: 14px;
   position: relative;
-  left:450px;
+  left:455px;
   bottom:360px;
-  margin-top:5px;
-  line-height:1em;
+  
 }
+
 .car {
   font-family:sans-serif;
   font-weight:lighter;
-  font-size: small;
+  font-size: 14px;
   position: relative;
   left: 900px; ;
-  bottom: 715px;
+  bottom: 720px;
+  
 }
+
 .sw{
   font-family:sans-serif;
   font-weight:lighter;
-  font-size: small;
+  font-size: 14px;
   position: relative;
   left: 10px;
   bottom: 710px;
 }
+
 .forest{
   font-family:sans-serif;
   font-weight:lighter;
-  font-size: small;
+  font-size: 14px;
   position: relative;
   left: 680px;
   bottom: 1178px;
 }
+
 .park {
   font-family:sans-serif;
   font-weight:lighter;
-  font-size: small;
+  font-size: s14px;
   position: relative;
   left: 10px;
   bottom: 1165px;
 }
+
 .bear {
   font-family:sans-serif;
   font-weight:lighter;
-  font-size: small;
+  font-size: 14px;
   position: relative; 
   left: 680px;
   bottom: 1635px;
 }
+
 .app {
   font-family:sans-serif;
   font-weight:lighter;
-  font-size: small;
+  font-size: 14px;
   position: relative; 
   left: 10px;
   bottom: 1635px;  
 }
 
-
+.web {
+  font-family:sans-serif;
+  font-weight:lighter;
+  font-size: 14px;
+  position: relative; 
+  left: 680px;
+  bottom: 2120px;  
+}
 
 
 a:link {
@@ -88,27 +109,38 @@ a:hover {
   color:darkolivegreen;
   text-decoration: none;
 }
+.imgMountainmove {
+  position: relative;
+  left: 12px;
+  bottom: 0px;
+  
+}
+.textMountainmove {
+  position:relative;
+  left: 12px;
+  bottom: 0px;
+}
 
 .imgOperatingmove {
   position: relative;
-  left: 450px;
+  left: 453px;
   bottom:360px;
 }
 
 .textOperatingmove {
   position: relative;
-  left:450px;
+  left:455px;
   bottom:360px;
 }
 .imgParkmove {
   position: relative;
-  left: 900px;
-  bottom:712px;
+  left: 895px;
+  bottom:720px;
 }
 .textParkmove {
   position: relative;
   left: 900px;
-  bottom: 713px;
+  bottom: 720px;
 }
 .imgWintermove {
   position: relative;
@@ -160,4 +192,14 @@ a:hover {
   position: relative;
   left: 10px;
   bottom: 1630px;
+}
+.imgWebmove {
+  position: relative;
+  left: 680px;
+  bottom: 2102px;
+}
+.textWebmove {
+  position: relative;
+  left: 680px;
+  bottom: 2115px;
 }
