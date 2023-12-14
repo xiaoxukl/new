@@ -1,27 +1,29 @@
 p {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style:normal;
+  font-size: 16px;
+  line-height:25px;
   color: black;
-  
   position: relative;
   left: 15px;
-  bottom: 0;
+  bottom: 8px;
 }
 
 h1 {
   font-family:'Times New Roman', Times, serif;
-  font-weight: lighter;
+  font-weight:lighter;
+  font-size:40px;
   position: relative;
   left: 15px;
-  bottom: 0;
+  bottom: 5px;
 }
 
 .mountain {
-  font-family:sans-serif;
+  font-family:Arial;
   font-weight:lighter;
   font-size: 14px;
   position: relative;
-  left: 12px;
+  left: 10px;
   bottom: 0px;
   }
 
@@ -30,8 +32,8 @@ h1 {
   font-weight:lighter;
   font-size: 14px;
   position: relative;
-  left:455px;
-  bottom:360px;
+  left:450px;
+  bottom:365px;
   
 }
 
@@ -40,8 +42,8 @@ h1 {
   font-weight:lighter;
   font-size: 14px;
   position: relative;
-  left: 900px; ;
-  bottom: 720px;
+  left: 895px; ;
+  bottom: 730px;
   
 }
 
@@ -50,7 +52,7 @@ h1 {
   font-weight:lighter;
   font-size: 14px;
   position: relative;
-  left: 10px;
+  left: 8px;
   bottom: 710px;
 }
 
@@ -59,16 +61,16 @@ h1 {
   font-weight:lighter;
   font-size: 14px;
   position: relative;
-  left: 680px;
+  left: 678px;
   bottom: 1178px;
 }
 
 .park {
   font-family:sans-serif;
   font-weight:lighter;
-  font-size: s14px;
+  font-size: 14px;
   position: relative;
-  left: 10px;
+  left: 9px;
   bottom: 1165px;
 }
 
@@ -78,7 +80,7 @@ h1 {
   font-size: 14px;
   position: relative; 
   left: 680px;
-  bottom: 1635px;
+  bottom: 1630px;
 }
 
 .app {
@@ -86,7 +88,7 @@ h1 {
   font-weight:lighter;
   font-size: 14px;
   position: relative; 
-  left: 10px;
+  left: 8px;
   bottom: 1635px;  
 }
 
@@ -112,35 +114,38 @@ a:hover {
 .imgMountainmove {
   position: relative;
   left: 12px;
-  bottom: 0px;
+  bottom: -15px;
   
 }
 .textMountainmove {
+  font-size:18px;
   position:relative;
-  left: 12px;
-  bottom: 0px;
+  left: 10px;
+  bottom: -5px;
 }
 
 .imgOperatingmove {
   position: relative;
   left: 453px;
-  bottom:360px;
+  bottom:350px;
 }
 
 .textOperatingmove {
+  font-size:18px;
   position: relative;
-  left:455px;
+  left:450px;
   bottom:360px;
 }
 .imgParkmove {
   position: relative;
   left: 895px;
-  bottom:720px;
+  bottom:715px;
 }
 .textParkmove {
+  font-size:18px;
   position: relative;
-  left: 900px;
-  bottom: 720px;
+  left: 895px;
+  bottom: 725px;
 }
 .imgWintermove {
   position: relative;
@@ -148,8 +153,9 @@ a:hover {
   bottom: 700px;
 }
 .textWintermove {
+  font-size:18px;
   position:relative;
-  left: 10px;
+  left: 8px;
   bottom: 710px;
 }
 .imgplaymove {
@@ -158,8 +164,9 @@ a:hover {
   bottom: 1167px;
 }
 .textplaymove {
+  font-size:18px;
   position: relative;
-  left: 680px;
+  left: 678px;
   bottom: 1175px;
 
 }
@@ -169,8 +176,9 @@ a:hover {
   bottom: 1150px;
 }
 .textSunmove {
+  font-size:18px;
   position: relative;
-  left: 10px;
+  left: 9px;
   bottom: 1160px;
 }
 .imgBearmove {
@@ -179,8 +187,9 @@ a:hover {
   bottom: 1615px;
 }
 .textBearmove {
+  font-size:18px;
   position: relative;
-  left: 678px;
+  left: 680px;
   bottom: 1625px;
 }
 .imgAppmove {
@@ -189,8 +198,9 @@ a:hover {
   bottom: 1618px;
 }
 .textAppmove {
+  font-size:18px;
   position: relative;
-  left: 10px;
+  left: 8px;
   bottom: 1630px;
 }
 .imgWebmove {
@@ -199,7 +209,48 @@ a:hover {
   bottom: 2102px;
 }
 .textWebmove {
+  font-size:18px;
   position: relative;
   left: 680px;
   bottom: 2115px;
+}
+.opearall {
+  position: relative;
+  left: 0px;
+  bottom: -15px;
+}
+.parkall {
+  position: relative;
+  left: 0px;
+  bottom: -30px;
+}
+.winterall {
+  position: relative;
+  left: 3px;
+  bottom: -18px;
+}
+.playall {
+  position: relative;
+  left: -5px;
+  bottom: -30px;
+}
+.sunall {
+  position: relative;
+  left: 0px;
+  bottom: -20px;
+}
+.bearall {
+  position: relative;
+  left: -5px;
+  bottom: -30px;
+}
+.appall {
+  position: relative;
+  left: 0px;
+  bottom: -30px;
+}
+.weball {
+  position: relative;
+  left: -6px;
+  bottom: -37px;
 }
