@@ -19,7 +19,7 @@ h1 {
 }
 
 .mountain {
-  font-family:Arial;
+  font-family:sans-serif;
   font-weight:lighter;
   font-size: 14px;
   position: relative;
@@ -101,6 +101,22 @@ h1 {
   bottom: 2120px;  
 }
 
+.camp {
+  font-family:sans-serif;
+  font-weight:lighter;
+  font-size: 14px;
+  position: relative; 
+  left: 299px;
+  bottom: 513px; 
+}
+.house {
+  font-family:sans-serif;
+  font-weight:lighter;
+  font-size: 14px;
+  position: relative; 
+  left: 300px;
+  bottom: 513px;
+}
 
 a:link {
   color: black;
@@ -108,7 +124,7 @@ a:link {
 }
 
 a:hover {
-  color:darkolivegreen;
+  color:#4b5e26;
   text-decoration: none;
 }
 .imgMountainmove {
@@ -214,6 +230,30 @@ a:hover {
   left: 680px;
   bottom: 2115px;
 }
+
+.imgcampmove {
+  position: relative;
+  left: 300px;
+  bottom: 500px;
+}
+
+.textCampmove {
+  font-size:18px;
+  position: relative;
+  left: 299px;
+  bottom: 510px;
+}
+.imghousemove {
+  position: relative;
+  left: 300px;
+  bottom: 500px;
+}
+.textHousemove {
+  font-size:18px;
+  position: relative;
+  left: 300px;
+  bottom: 510px;
+}
 .opearall {
   position: relative;
   left: 0px;
@@ -252,5 +292,15 @@ a:hover {
 .weball {
   position: relative;
   left: -6px;
-  bottom: -37px;
+  bottom: -58px;
+}
+.campall {
+  position: relative;
+  left: -295px;
+  bottom: 1540px;
+}
+.houseall {
+  position: relative;
+  left: 370px;
+  bottom: 2015px;
 }
