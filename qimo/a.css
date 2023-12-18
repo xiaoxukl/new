@@ -3,7 +3,8 @@ p {
   font-style:normal;
   font-size: 16px;
   line-height:25px;
-  color: black;
+  font-weight: 400;
+  color: #212529;
   position: relative;
   left: 15px;
   bottom: 8px;
@@ -19,18 +20,20 @@ h1 {
 }
 
 .mountain {
-  font-family:sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight:lighter;
   font-size: 14px;
+  line-height: 1.75;
   position: relative;
   left: 10px;
   bottom: 0px;
   }
 
 .starry {
-  font-family:sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight:lighter;
   font-size: 14px;
+  line-height: 1.75;
   position: relative;
   left:450px;
   bottom:365px;
@@ -38,9 +41,10 @@ h1 {
 }
 
 .car {
-  font-family:sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight:lighter;
   font-size: 14px;
+  line-height: 1.75;
   position: relative;
   left: 895px; ;
   bottom: 730px;
@@ -48,71 +52,79 @@ h1 {
 }
 
 .sw{
-  font-family:sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight:lighter;
   font-size: 14px;
+  line-height: 1.75;
   position: relative;
   left: 8px;
   bottom: 710px;
 }
 
 .forest{
-  font-family:sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight:lighter;
   font-size: 14px;
+  line-height: 1.75;
   position: relative;
   left: 678px;
   bottom: 1178px;
 }
 
 .park {
-  font-family:sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight:lighter;
   font-size: 14px;
+  line-height: 1.75;
   position: relative;
   left: 9px;
   bottom: 1165px;
 }
 
 .bear {
-  font-family:sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight:lighter;
   font-size: 14px;
+  line-height: 1.75;
   position: relative; 
   left: 680px;
   bottom: 1630px;
 }
 
 .app {
-  font-family:sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight:lighter;
   font-size: 14px;
+  line-height: 1.75;
   position: relative; 
   left: 8px;
   bottom: 1635px;  
 }
 
 .web {
-  font-family:sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight:lighter;
   font-size: 14px;
+  line-height: 1.75;
   position: relative; 
   left: 680px;
   bottom: 2120px;  
 }
 
 .camp {
-  font-family:sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight:lighter;
   font-size: 14px;
+  line-height: 1.75;
   position: relative; 
   left: 299px;
   bottom: 513px; 
 }
 .house {
-  font-family:sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   font-weight:lighter;
   font-size: 14px;
+  line-height: 1.75;
   position: relative; 
   left: 300px;
   bottom: 513px;
@@ -134,7 +146,8 @@ a:hover {
   
 }
 .textMountainmove {
-  font-size:18px;
+  font-size:1.125rem;
+  line-height: 1.75;
   position:relative;
   left: 10px;
   bottom: -5px;
@@ -147,7 +160,8 @@ a:hover {
 }
 
 .textOperatingmove {
-  font-size:18px;
+  font-size:1.125rem;
+  line-height: 1.75;
   position: relative;
   left:450px;
   bottom:360px;
@@ -158,7 +172,8 @@ a:hover {
   bottom:715px;
 }
 .textParkmove {
-  font-size:18px;
+  font-size:1.125rem;
+  line-height: 1.75;
   position: relative;
   left: 895px;
   bottom: 725px;
@@ -169,7 +184,8 @@ a:hover {
   bottom: 700px;
 }
 .textWintermove {
-  font-size:18px;
+  font-size:1.125rem;
+  line-height: 1.75;
   position:relative;
   left: 8px;
   bottom: 710px;
@@ -180,7 +196,8 @@ a:hover {
   bottom: 1167px;
 }
 .textplaymove {
-  font-size:18px;
+  font-size:1.125rem;
+  line-height: 1.75;
   position: relative;
   left: 678px;
   bottom: 1175px;
@@ -192,7 +209,8 @@ a:hover {
   bottom: 1150px;
 }
 .textSunmove {
-  font-size:18px;
+  font-size:1.125rem;
+  line-height: 1.75;
   position: relative;
   left: 9px;
   bottom: 1160px;
@@ -203,7 +221,8 @@ a:hover {
   bottom: 1615px;
 }
 .textBearmove {
-  font-size:18px;
+  font-size:1.125rem;
+  line-height: 1.75;
   position: relative;
   left: 680px;
   bottom: 1625px;
@@ -214,7 +233,8 @@ a:hover {
   bottom: 1618px;
 }
 .textAppmove {
-  font-size:18px;
+  font-size:1.125rem;
+  line-height: 1.75;
   position: relative;
   left: 8px;
   bottom: 1630px;
@@ -225,7 +245,8 @@ a:hover {
   bottom: 2102px;
 }
 .textWebmove {
-  font-size:18px;
+  font-size:1.125rem;
+  line-height: 1.75;
   position: relative;
   left: 680px;
   bottom: 2115px;
@@ -238,7 +259,8 @@ a:hover {
 }
 
 .textCampmove {
-  font-size:18px;
+  font-size:1.125rem;
+  line-height: 1.75;
   position: relative;
   left: 299px;
   bottom: 510px;
@@ -249,10 +271,16 @@ a:hover {
   bottom: 500px;
 }
 .textHousemove {
-  font-size:18px;
+  font-size:1.125rem;
+  line-height: 1.75;
   position: relative;
   left: 300px;
   bottom: 510px;
+}
+.mountainall {
+  position: relative;
+  left: 0px;
+  bottom: -15px;
 }
 .opearall {
   position: relative;
