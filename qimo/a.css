@@ -1,32 +1,33 @@
-p {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h1 {
+  font-family:'Times New Roman', Times, serif;
+  font-weight:lighter;
+  font-size:35px;
+  position: relative;
+  margin: 0px 0px 16px;
+  padding: 0px 10px;
+  color: #222222;
+}
+
+.duanluo {
+  font-family:Arial, Helvetica, sans-serif;
   font-style:normal;
-  font-size: 16px;
+  font-size: 1rem;
   line-height:25px;
   font-weight: 400;
   color: #212529;
   position: relative;
-  left: 15px;
-  bottom: 8px;
+  margin: 0px 0px 16px;
+  padding: 0px 10px;
 }
-
-h1 {
-  font-family:'Times New Roman', Times, serif;
-  font-weight:lighter;
-  font-size:40px;
-  position: relative;
-  left: 15px;
-  bottom: 5px;
-}
-
 .mountain {
   font-family:Arial, Helvetica, sans-serif;
   font-weight:lighter;
   font-size: 14px;
   line-height: 1.75;
+  color: #444444;
   position: relative;
-  left: 10px;
-  bottom: 0px;
+  margin: 0px 0px 16px;
+  
   }
 
 .starry {
@@ -35,8 +36,8 @@ h1 {
   font-size: 14px;
   line-height: 1.75;
   position: relative;
-  left:450px;
-  bottom:365px;
+  color: #444444;
+  margin: 0px 0px 16px;
   
 }
 
@@ -46,8 +47,8 @@ h1 {
   font-size: 14px;
   line-height: 1.75;
   position: relative;
-  left: 895px; ;
-  bottom: 730px;
+  color: #444444;
+  margin: 0px 0px 16px;
   
 }
 
@@ -57,8 +58,8 @@ h1 {
   font-size: 14px;
   line-height: 1.75;
   position: relative;
-  left: 8px;
-  bottom: 710px;
+  color: #444444;
+  margin: 0px 0px 16px;
 }
 
 .forest{
@@ -67,8 +68,8 @@ h1 {
   font-size: 14px;
   line-height: 1.75;
   position: relative;
-  left: 678px;
-  bottom: 1178px;
+  color: #444444;
+  margin: 0px 0px 16px;
 }
 
 .park {
@@ -77,8 +78,8 @@ h1 {
   font-size: 14px;
   line-height: 1.75;
   position: relative;
-  left: 9px;
-  bottom: 1165px;
+  color: #444444;
+  margin: 0px 0px 16px;
 }
 
 .bear {
@@ -87,8 +88,8 @@ h1 {
   font-size: 14px;
   line-height: 1.75;
   position: relative; 
-  left: 680px;
-  bottom: 1630px;
+  color: #444444;
+  margin: 0px 0px 16px;
 }
 
 .app {
@@ -97,8 +98,8 @@ h1 {
   font-size: 14px;
   line-height: 1.75;
   position: relative; 
-  left: 8px;
-  bottom: 1635px;  
+  color: #444444;
+  margin: 0px 0px 16px;
 }
 
 .web {
@@ -107,8 +108,8 @@ h1 {
   font-size: 14px;
   line-height: 1.75;
   position: relative; 
-  left: 680px;
-  bottom: 2120px;  
+  color: #444444;
+  margin: 0px 0px 16px;
 }
 
 .camp {
@@ -117,8 +118,8 @@ h1 {
   font-size: 14px;
   line-height: 1.75;
   position: relative; 
-  left: 299px;
-  bottom: 513px; 
+  color: #444444;
+  margin: 0px 0px 16px;
 }
 .house {
   font-family:Arial, Helvetica, sans-serif;
@@ -126,8 +127,8 @@ h1 {
   font-size: 14px;
   line-height: 1.75;
   position: relative; 
-  left: 300px;
-  bottom: 513px;
+  color: #444444;
+  margin: 0px 0px 16px;
 }
 
 a:link {
@@ -141,194 +142,194 @@ a:hover {
 }
 .imgMountainmove {
   position: relative;
-  left: 12px;
-  bottom: -15px;
+  margin: 0px 0px 16px;
+  /*left: 12px;
+  bottom: -15px;*/
   
 }
 .textMountainmove {
-  font-size:1.125rem;
+  font-size:18px;
   line-height: 1.75;
   position:relative;
-  left: 10px;
-  bottom: -5px;
+  margin: 0px 0px 8px;
+  color: #000000;
 }
 
 .imgOperatingmove {
   position: relative;
-  left: 453px;
-  bottom:350px;
+  margin: 0px 0px 16px;
+
+  
 }
 
 .textOperatingmove {
-  font-size:1.125rem;
+  font-size:18px;
   line-height: 1.75;
   position: relative;
-  left:450px;
-  bottom:360px;
+  margin: 0px 0px 8px;
+  color: #000000;
 }
 .imgParkmove {
   position: relative;
-  left: 895px;
-  bottom:715px;
+  margin: 0px 0px 16px;
+
 }
 .textParkmove {
-  font-size:1.125rem;
+  font-size:18px;
   line-height: 1.75;
   position: relative;
-  left: 895px;
-  bottom: 725px;
+  margin: 0px 0px 8px;
+  color: #000000;
 }
 .imgWintermove {
   position: relative;
-  left: 9px;
-  bottom: 700px;
+  margin: 0px 0px 16px;
+  
 }
 .textWintermove {
-  font-size:1.125rem;
+  font-size:18px;
   line-height: 1.75;
   position:relative;
-  left: 8px;
-  bottom: 710px;
+  margin: 0px 0px 8px;
+  color: #000000;
 }
 .imgplaymove {
   position: relative;
-  left: 680px;
-  bottom: 1167px;
+  margin: 0px 0px 16px;
+  
 }
 .textplaymove {
-  font-size:1.125rem;
+  font-size:18px;
   line-height: 1.75;
   position: relative;
-  left: 678px;
-  bottom: 1175px;
+  margin: 0px 0px 8px;
+  color: #000000;
 
 }
 .imgSunmove {
   position: relative;
-  left: 10px;
-  bottom: 1150px;
+  margin: 0px 0px 16px;
+
 }
 .textSunmove {
-  font-size:1.125rem;
+  font-size:18px;
   line-height: 1.75;
   position: relative;
-  left: 9px;
-  bottom: 1160px;
+  margin: 0px 0px 8px;
+  color: #000000;
 }
 .imgBearmove {
   position: relative;
-  left: 680px;
-  bottom: 1615px;
+  margin: 0px 0px 16px;
+
 }
 .textBearmove {
-  font-size:1.125rem;
+  font-size:18px;
   line-height: 1.75;
   position: relative;
-  left: 680px;
-  bottom: 1625px;
+  margin: 0px 0px 8px;
+  color: #000000;
 }
 .imgAppmove {
   position: relative;
-  left: 10px;
-  bottom: 1618px;
+  margin: 0px 0px 16px;
+  
 }
 .textAppmove {
-  font-size:1.125rem;
+  font-size:18px;
   line-height: 1.75;
   position: relative;
-  left: 8px;
-  bottom: 1630px;
+  margin: 0px 0px 8px;
+  color: #000000;
 }
 .imgWebmove {
   position: relative;
-  left: 680px;
-  bottom: 2102px;
+  margin: 0px 0px 16px;
+  
 }
 .textWebmove {
-  font-size:1.125rem;
+  font-size:18px;
   line-height: 1.75;
   position: relative;
-  left: 680px;
-  bottom: 2115px;
+  margin: 0px 0px 8px;
+  color: #000000;
 }
 
 .imgcampmove {
   position: relative;
-  left: 300px;
-  bottom: 500px;
+  margin: 0px 0px 16px;
+  
 }
 
 .textCampmove {
-  font-size:1.125rem;
+  font-size:18px;
   line-height: 1.75;
   position: relative;
-  left: 299px;
-  bottom: 510px;
+  margin: 0px 0px 8px;
+  color: #000000;
 }
 .imghousemove {
   position: relative;
-  left: 300px;
-  bottom: 500px;
+  margin: 0px 0px 16px;
+  
 }
 .textHousemove {
-  font-size:1.125rem;
+  font-size:18px;
   line-height: 1.75;
   position: relative;
-  left: 300px;
-  bottom: 510px;
+  margin: 0px 0px 8px;
+  color: #000000;
+  
 }
 .mountainall {
   position: relative;
-  left: 0px;
-  bottom: -15px;
+  padding: 0px 10px;
+
 }
 .opearall {
   position: relative;
-  left: 0px;
-  bottom: -15px;
+  left: 445px;
+  bottom:360px;
+  padding: 0px 10px;
 }
 .parkall {
   position: relative;
-  left: 0px;
-  bottom: -30px;
+  left: 890px;
+  bottom: 720px;
+  padding: 0px 10px;
 }
 .winterall {
   position: relative;
-  left: 3px;
-  bottom: -18px;
+  bottom:685px;
+  padding: 0px 10px;
 }
 .playall {
   position: relative;
-  left: -5px;
-  bottom: -30px;
+  bottom:1143px;
+  left: 660px;
+  padding: 0px 10px;
 }
 .sunall {
   position: relative;
-  left: 0px;
-  bottom: -20px;
+  padding: 0px 10px;
 }
 .bearall {
   position: relative;
-  left: -5px;
-  bottom: -30px;
+  padding: 0px 10px;
 }
 .appall {
   position: relative;
-  left: 0px;
-  bottom: -30px;
+  padding: 0px 10px;
 }
 .weball {
   position: relative;
-  left: -6px;
-  bottom: -58px;
+  padding: 0px 10px;
 }
 .campall {
   position: relative;
-  left: -295px;
-  bottom: 1540px;
+  padding: 0px 10px;
 }
 .houseall {
   position: relative;
-  left: 370px;
-  bottom: 2015px;
+  padding: 0px 10px;
 }
