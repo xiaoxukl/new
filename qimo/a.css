@@ -1,20 +1,21 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 h1 {
   font-family:'Times New Roman', Times, serif;
   font-weight:lighter;
   font-size:35px;
-  position: relative;
   margin: 0px 0px 16px;
-  padding: 0px 10px;
   color: #222222;
 }
 
 .allcontent {
-  width: 760px;
   position: relative;
-  float: leftS;
-  padding: auto;
-  margin-left: 300px;
+  
 }
+
 .duanluo {
   font-family:Arial, Helvetica, sans-serif;
   font-style:normal;
@@ -23,120 +24,17 @@ h1 {
   font-weight: 400;
   color: #212529;
   margin: 0px 0px 16px;
-  padding: 0px 10px;
-}
-.mountain {
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight:lighter;
-  font-size: 14px;
-  line-height: 1.75;
-  color: #444444;
-  position: relative;
-  margin: 0px 0px 16px;
-  
   }
 
-.starry {
+.mountain,.starry,.car,.sw,.forest,.park,.bear,.app,.web,.camp,.house {
   font-family:Arial, Helvetica, sans-serif;
   font-weight:lighter;
   font-size: 14px;
   line-height: 1.75;
+  color: #444444;
   position: relative;
-  color: #444444;
   margin: 0px 0px 16px;
-  
-}
-
-.car {
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight:lighter;
-  font-size: 14px;
-  line-height: 1.75;
-  position: relative;
-  color: #444444;
-  margin: 0px 0px 16px;
-  
-}
-
-.sw{
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight:lighter;
-  font-size: 14px;
-  line-height: 1.75;
-  position: relative;
-  color: #444444;
-  margin: 0px 0px 16px;
-}
-
-.forest{
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight:lighter;
-  font-size: 14px;
-  line-height: 1.75;
-  position: relative;
-  color: #444444;
-  margin: 0px 0px 16px;
-}
-
-.park {
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight:lighter;
-  font-size: 14px;
-  line-height: 1.75;
-  position: relative;
-  color: #444444;
-  margin: 0px 0px 16px;
-}
-
-.bear {
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight:lighter;
-  font-size: 14px;
-  line-height: 1.75;
-  position: relative; 
-  color: #444444;
-  margin: 0px 0px 16px;
-}
-
-.app {
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight:lighter;
-  font-size: 14px;
-  line-height: 1.75;
-  position: relative; 
-  color: #444444;
-  margin: 0px 0px 16px;
-}
-
-.web {
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight:lighter;
-  font-size: 14px;
-  line-height: 1.75;
-  position: relative; 
-  color: #444444;
-  margin: 0px 0px 16px;
-}
-
-.camp {
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight:lighter;
-  font-size: 14px;
-  line-height: 1.75;
-  position: relative; 
-  color: #444444;
-  margin: 0px 0px 16px;
-}
-
-.house {
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight:lighter;
-  font-size: 14px;
-  line-height: 1.75;
-  position: relative; 
-  color: #444444;
-  margin: 0px 0px 16px;
-}
+  }
 
 a:link {
   color: black;
@@ -148,10 +46,13 @@ a:hover {
   text-decoration: none;
 }
 
-.imgMountainmove {
+.imgMountainmove,.imgOperatingmove,.imgParkmove,.imgWintermove,
+.imgplaymove,.imgSunmove,.imgBearmove,.imgAppmove,.imgWebmove,
+.imgcampmove,.imghousemove {
   position: relative;
   margin: 0px 0px 16px;
   }
+
 .textMountainmove {
   font-size:18px;
   line-height: 1.75;
@@ -163,8 +64,6 @@ a:hover {
 .imgOperatingmove {
   position: relative;
   margin: 0px 0px 16px;
-
-  
 }
 
 .textOperatingmove {
@@ -174,6 +73,7 @@ a:hover {
   margin: 0px 0px 8px;
   color: #000000;
 }
+
 .imgParkmove {
   position: relative;
   margin: 0px 0px 16px;
@@ -186,11 +86,13 @@ a:hover {
   margin: 0px 0px 8px;
   color: #000000;
 }
+
 .imgWintermove {
   position: relative;
   margin: 0px 0px 16px;
   
 }
+
 .textWintermove {
   font-size:18px;
   line-height: 1.75;
@@ -198,24 +100,24 @@ a:hover {
   margin: 0px 0px 8px;
   color: #000000;
 }
+
 .imgplaymove {
   position: relative;
   margin: 0px 0px 16px;
-  
 }
+
 .textplaymove {
   font-size:18px;
   line-height: 1.75;
   position: relative;
   margin: 0px 0px 8px;
   color: #000000;
-
 }
 .imgSunmove {
   position: relative;
   margin: 0px 0px 16px;
-
 }
+
 .textSunmove {
   font-size:18px;
   line-height: 1.75;
@@ -223,11 +125,12 @@ a:hover {
   margin: 0px 0px 8px;
   color: #000000;
 }
+
 .imgBearmove {
   position: relative;
   margin: 0px 0px 16px;
-
 }
+
 .textBearmove {
   font-size:18px;
   line-height: 1.75;
@@ -235,11 +138,12 @@ a:hover {
   margin: 0px 0px 8px;
   color: #000000;
 }
+
 .imgAppmove {
   position: relative;
   margin: 0px 0px 16px;
-  
 }
+
 .textAppmove {
   font-size:18px;
   line-height: 1.75;
@@ -247,11 +151,12 @@ a:hover {
   margin: 0px 0px 8px;
   color: #000000;
 }
+
 .imgWebmove {
   position: relative;
   margin: 0px 0px 16px;
-  
 }
+
 .textWebmove {
   font-size:18px;
   line-height: 1.75;
@@ -273,92 +178,93 @@ a:hover {
   margin: 0px 0px 8px;
   color: #000000;
 }
+
 .imghousemove {
   position: relative;
   margin: 0px 0px 16px;
-  
 }
+
 .textHousemove {
   font-size:18px;
   line-height: 1.75;
   position: relative;
   margin: 0px 0px 8px;
   color: #000000;
-  
 }
+
 .mountainall {
   position: relative;
+  bottom: -15px;
+  left: -10px;
   padding: 0px 10px;
-
 }
+
 .opearall {
   position: relative;
-  left: 440px;
-  bottom:360px;
+  left: 432px;
+  bottom:330px;
   padding: 0px 10px;
 }
+
 .parkall {
   position: relative;
-  left: 880px;
-  bottom: 720px;
+  left: 872px;
+  bottom: 672px;
   padding: 0px 10px;
 }
+
 .winterall {
   position: relative;
-  bottom:685px;
+  bottom:650px;
+  left: -8px;
   padding: 0px 10px;
 }
+
 .playall {
   position: relative;
-  bottom:1143px;
-  left: 660px;
+  bottom:1092px;
+  left: 652px;
   padding: 0px 10px;
 }
+
 .sunall {
   position: relative;
-  left: 0px;
-  bottom: 1125px;
+  left: -8px;
+  bottom: 1080px;
   padding: 0px 10px;
 }
+
 .bearall {
   position: relative;
-  left: 660px;
-  bottom: 1584px;
+  left: 652px;
+  bottom: 1550px;
   padding: 0px 10px;
 }
+
 .appall {
   position: relative;
   bottom: 1580px;
+  left: -8px;
   padding: 0px 10px;
 }
+
 .weball {
   position: relative;
-  left: 660px;
+  left: 652px;
   bottom: 2040px;
   padding: 0px 10px;
 }
+
 .campall {
   position: relative;
   bottom: 2020px;
+  left: -8px;
   padding: 0px 10px;
 }
+
 .houseall {
   position: relative;
-  left: 660px;
+  left: 652px;
   bottom: 2505px;
   padding: 0px 10px;
-}
-
-.diyihangall {
-  position: relative;
-  bottom: -15px;
-}
-
-.disihangall {
-  position: relative;
-  bottom: -15px;
-}
-.diwuhangall {
-  position: relative;
-  bottom: -15px;
 }

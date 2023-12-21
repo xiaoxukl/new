@@ -1,0 +1,124 @@
+h1 {
+  font-family:'Times New Roman', Times, serif;
+  font-weight:lighter;
+  font-size:35px;
+  margin: 0px 0px 16px;
+  color: #222222;
+}
+
+div {
+  display: block;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#4b5e26;
+  text-decoration: none;
+}
+
+.duanluo {
+  font-family:Arial, Helvetica, sans-serif;
+  font-style:normal;
+  font-size: 1rem;
+  line-height:25px;
+  font-weight: 400;
+  color: #212529;
+  margin: 0px 0px 16px;
+  }
+
+  .mountain,.starry,.car,.sw,.forest,.park,.bear,.app,.web,.camp,.house {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:lighter;
+  font-size: 14px;
+  line-height: 1.75;
+  color: #444444;
+  position: relative;
+  bottom: 18px;
+  margin: 0px 0px 16px;
+  }
+
+  .textMountainmove,.textOperatingmove,.textParkmove,.textWintermove,
+  .textplaymove,.textSunmove,.textBearmove,.textAppmove,.textWebmove,
+  .textCampmove,.textHousemove {
+  font-size:18px;
+  line-height: 1.75;
+  position: relative;
+  bottom: 8px;
+  color: #000000;
+}
+  .opearall {
+    width: 420px;
+    float: right;
+    position: relative;
+    left: -700px;
+    bottom: 16px;
+  }
+
+  .parkall {
+    width: 420px;
+    float: right;
+    position: relative;
+    bottom: 393px;
+    left:160px;
+  }
+
+  .winterall {
+    width: 640px;
+    position: relative;
+    bottom: -30px;
+  }
+
+  .playall {
+    width: 640px;
+    float: right;
+    position: relative;
+    left: -260px;
+    bottom: 459px;
+  }
+
+  .sunall {
+    width: 640px;
+    position: relative;
+    bottom: -50px;
+  }
+
+  .bearall {
+    width: 640px;
+    float: right;
+    position: relative;
+    bottom: 440px;
+    left: 380px;
+  }
+
+  .appall {
+    width: 640px;
+    position: relative;
+    bottom: 430px;
+  }
+
+  .weball {
+    width: 640px;
+    float: right;
+    position: relative;
+    bottom: 921px;
+    left: -260px;
+  }
+
+  .campall {
+    width: 640px;
+    position: relative;
+    bottom: 405px;
+  }
+
+  .houseall  {
+    width: 640px;
+    position: relative;
+    
+    
+    
+    
+  }
